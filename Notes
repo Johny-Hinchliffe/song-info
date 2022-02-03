@@ -1,0 +1,11 @@
+1) create-react-app nameOfApp
+2) npm install --save redux react-redux
+3) npm start (classic)
+
+1) make app and index files
+2) Make reducer
+
+3?) import Provider from react-redux and createStore from redux
+4) wrap <App/> with <Provider> and put one prop named store={createStorer(reducers)} 
+    **reducers** are combined reducers imported in from './reducers/index'
+    
